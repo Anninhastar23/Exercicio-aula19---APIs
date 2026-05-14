@@ -1,14 +1,14 @@
-import {Fabricante} from "/Fabricante"
+import {Fabricante} from "./Fabricante"
 
 export class Produto{
     id: number
-    nome: string
+    name: string
     preco:number
     fabricante:Fabricante
 
-    constructor(id: number, nome: string, preco: number, fabricante: Fabricante){
+    constructor(id: number, name: string, preco: number, fabricante: Fabricante){
         this.id = id
-        this.name = nome
+        this.name = name
         this.preco = preco
         this.fabricante = fabricante
     }

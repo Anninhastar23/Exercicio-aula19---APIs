@@ -1,4 +1,4 @@
-import {Endereco} from "./Endereco" 
+import {Endereco} from "./Endereco." 
 
 export class Fabricante{
     nome: string
@@ -8,4 +8,4 @@ export class Fabricante{
         this.nome = nome
         this.endereco = endereco
     }
-}
+}  
