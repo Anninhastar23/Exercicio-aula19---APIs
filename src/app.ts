@@ -194,6 +194,4 @@ app.get("/api/product/:id", buscarProdutoPorId)
 app.put("/api/product/:id", atualizarProduto)
 app.delete("/api/product/:id", removerProduto)
 
-app.listen(PORT, () => {
-    console.log(`API em execução em: http://localhost:${PORT}`)
-})
+app.listen(PORT, () => console.log(`API em execução em: http://localhost:${PORT}`))
